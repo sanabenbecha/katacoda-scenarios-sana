@@ -18,9 +18,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "ansible-centos"
+    "imageid": "ubuntu:2004"
   }
 }
