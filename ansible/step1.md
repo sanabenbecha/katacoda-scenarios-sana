@@ -19,3 +19,5 @@ Within the JSON file, the courses element defines each scenario. For example:
 </pre>
 
 The **course_id** is the scenario name directory within the course directory. For example `ls katacoda-scenario-examples/uilayouts/uilayout-terminal`{{execute}}. The **title** and **description** are shown on the course page.
+
+`ls`{{execute}}
