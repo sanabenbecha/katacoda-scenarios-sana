@@ -1,26 +1,39 @@
 {
-  "title": "Ansible",
-  "description": "Ubuntu Lab",
-  "difficulty": "Beginner",
-  "time": "60 minutes",
-  "details": {
-    "steps": [
-      {
-        "title": "Step 1",
-        "text": "step1.md"
-      }
-    ],
-    "intro": {
-      "text": "intro.md"
+    "noindex": true,
+    "title": "Run Commands Automatically",
+    "description": "Automatically run commands in the foreground and background when a scenario starts",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2",
+                "courseData": "step2-background.sh",
+                "code": "step2-foreground.sh",
+                "text": "step2.md"
+            },
+            {
+                "title": "Step 3",
+                "courseData": "step3-background.sh",
+                "code": "step3-foreground.sh",
+                "text": "step3.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "background.sh",
+            "code": "foreground.sh",
+            "credits": ""
+        }
     },
-    "finish": {
-      "text": "finish.md"
+    "files": [],
+    "environment": {
+        "hidefinish": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu"
     }
-  },
-  "environment": {
-    "uilayout": "editor-terminal"
-  },
-  "backend": {
-    "imageid": "ubuntu:2004"
-  }
 }
