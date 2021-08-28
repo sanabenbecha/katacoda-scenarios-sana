@@ -1,0 +1,18 @@
+{
+    "title": "Katacoda UI Layouts Example",
+    "description": "Example of different Katacoda UI Layouts. Also, an example of creating a Katacoda Course!",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "ansible",
+        "title": "Get statrted with Ansible",
+        "description": "Ansible Scenario with Katacoda"
+      },
+      {
+        "title": "Scenario with Terminal and VS Code UI as Tab",
+        "description": "",
+        "pathway_id": "scenario-examples",
+        "course_id": "uilayout-terminal-with-vscode"
+      },
+    ]
+  }
