@@ -9,10 +9,10 @@
         "description": "Ansible Scenario with Katacoda"
       },
       {
-        "title": "Scenario with Terminal and VS Code UI as Tab",
+        "title": "Docker",
         "description": "",
-        "pathway_id": "scenario-examples",
-        "course_id": "uilayout-terminal-with-vscode"
+        "pathway_id": "Get Started with Docker",
+        "course_id": "docker"
       },
     ]
   }
