@@ -27,15 +27,15 @@
         "answer": "step4-answer.md"
       },
       {
-        "title": "Step 5",
+        "title": "liste des containers",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Inspection d'un container",
         "text": "step6.md"
       },
       {
-        "title": "Step 7",
+        "title": "exec dans un container",
         "text": "step7.md"
       }
     ],
