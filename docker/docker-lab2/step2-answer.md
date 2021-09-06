@@ -9,17 +9,17 @@ docker run -it --name=test1 alpine:latest date`
 > Le problème est que le même nom de conteneur a été utilisé pour les deux
 exécutions et que le premier conteneur n'a pas été supprimé.
 
-1.  Que pouvez-vous faire pour les faire fonctionner tous les deux (il y
-    > a au moins deux façons)?
+1.  Que pouvez-vous faire pour les faire fonctionner tous les deux (il y a au moins deux façons)?
 
-Vous pouvez supprimer le conteneur (en utilisant --rm) avec la première
+- Vous pouvez supprimer le conteneur (en utilisant --rm) avec la première
 commande d'exécution ou vous pourrez peut-être utiliser un nom unique
 pour la deuxième exécution.
 
 `docker run -it --name=test1 --rm alpine:latest date`{{execute}}
+
 `docker run -it --name=test1 alpine:latest date`{{execute}}
 
-Vous pouvez supprimer manuellement le premier conteneur après l'avoir
+- Vous pouvez supprimer manuellement le premier conteneur après l'avoir
 exécuté.
 
 `docker run -it --name=test1 alpine:latest date`{{execute}}
@@ -28,7 +28,7 @@ exécuté.
 
 `docker run -it --name=test1 alpine:latest date`{{execute}}
 
-Changez le nom du conteneur.
+- Vous pouvez changer le nom du conteneur.
 
 `docker run -it --name=test1 alpine:latest date`{{execute}}
 

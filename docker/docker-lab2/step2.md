@@ -6,5 +6,4 @@ docker run -it --name=test1 alpine:latest date`
 
 1.  Pourquoi ça ne marche pas?
 
-1.  Que pouvez-vous faire pour les faire fonctionner tous les deux (il y
-    > a au moins deux façons)?
+1.  Que pouvez-vous faire pour les faire fonctionner tous les deux (il y a au moins deux façons)?
