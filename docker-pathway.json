@@ -1,12 +1,17 @@
 {
     "title": "Docker Training Labs",
     "description": "Liste des labs et exercices pour la formation Docker",
-    "icon": "Moby-logo.png",
+    "icon": "assets/Moby-logo.png",
     "courses": [
       {
         "course_id": "docker-lab2",
         "title": "Manipulation des conteneurs avec la CLI",
-        "description": ""
+        "description": "Se familiariser avec la ligne de commande docker"
+      },
+      {
+        "course_id": "docker-lab3",
+        "title": "Manipulation de Dockerfile",
+        "description": "Se familiariser avec les fichiers Dockerfile"
       }
     ]
   }
