@@ -8,8 +8,7 @@ et CMD.
 FROM alpine
 
 ENTRYPOINT ["ping"]
-```
-{{copy}}
+```{{copy}}
 
 -   Créez ensuite une image, nommée ping:1.0, à partir de ce fichier.
 
@@ -37,8 +36,7 @@ ENTRYPOINT ["ping"]
 FROM alpine
 
 CMD ["ping"]
-```
-{{copy}}
+```{{copy}}
 
 -   Créez une image, nommée ping:2.0, à partir de ce fichier.
 
@@ -61,6 +59,7 @@ CMD ["ping"]
 1.  Créez un fichier Dockerfile-v3 contenant les instructions
     suivantes :
 ```dockerfile
+
 FROM alpine
 
 ENTRYPOINT ["ping"]
