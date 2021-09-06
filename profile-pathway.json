@@ -1,0 +1,14 @@
+{
+    "scenarios": [
+      {
+        "id": "ansible",
+        "title": "Get statrted with Ansible",
+        "description": "Ansible Scenario with Katacoda"
+      },
+      {
+        "title": "Docker",
+        "description": "",
+        "id": "docker"
+      },
+    ]
+  }
