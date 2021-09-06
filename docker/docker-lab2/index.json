@@ -12,13 +12,14 @@
         "answer": "step1-answer.md"
       },
       {
-        "title": "manipulation des commandes récurrentes",
+        "title": "Manipulation des commandes récurrentes",
         "text": "step2.md",
         "answer": "step2-answer.md"
       },
       {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Shell intéractif",
+        "text": "step3.md",
+        "answer": "step3-answer.md"
       },
       {
         "title": "Step 4",
