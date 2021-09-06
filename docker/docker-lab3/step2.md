@@ -57,6 +57,7 @@ CMD ["ping"]
 
 3.  Créez un fichier *Dockerfile-v3* contenant les instructions
     suivantes :
+
 ```dockerfile
 
 FROM alpine
@@ -64,6 +65,7 @@ FROM alpine
 ENTRYPOINT ["ping"]
 
 CMD ["-c3", "localhost"]
+
 ```{{copy}}
 
 -   Créez une image, nommée **ping:3.0**, à partir de ce fichier.
