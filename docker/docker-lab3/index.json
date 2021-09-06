@@ -10,7 +10,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "ENTRYPOINT et CMD",
         "text": "step2.md"
       },
       {
@@ -38,7 +38,10 @@
     }
   },
   "files": [
-    "Dockerfile"
+    "Dockerfile",
+    "Dockerfile-v1",
+    "Dockerfile-v2",
+    "Dockerfile-v3"
   ],
   "environment": {
     "uilayout": "editor-terminal"
