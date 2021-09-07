@@ -1,6 +1,6 @@
 {
-    "title": "Formation Devops - Docker",
-    "description": "Liste des labs et exercices pour la formation en Devops sur Docker",
+    "title": "Formation Devops - Ansible",
+    "description": "Liste des labs et exercices pour la formation en Devops sur Ansible",
     "icon": "assets/Moby-logo.png",
     "courses": [
       {
