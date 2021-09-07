@@ -1,0 +1,55 @@
+{
+  "title": "Docker - Manipulation des conteneurs avec la CLI",
+  "description": "Exercices Docker avec CLI",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Hello from Alpine",
+        "text": "step1.md",
+        "verify": "step1-verify.sh",
+        "answer": "step1-answer.md"
+      },
+      {
+        "title": "Manipulation des commandes récurrentes",
+        "text": "step2.md",
+        "answer": "step2-answer.md"
+      },
+      {
+        "title": "Shell intéractif",
+        "text": "step3.md",
+        "answer": "step3-answer.md"
+      },
+      {
+        "title": "Foreground / Background",
+        "text": "step4.md",
+        "answer": "step4-answer.md"
+      },
+      {
+        "title": "liste des containers",
+        "text": "step5.md"
+      },
+      {
+        "title": "Inspection d'un container",
+        "text": "step6.md"
+      },
+      {
+        "title": "exec dans un container",
+        "text": "step7.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
