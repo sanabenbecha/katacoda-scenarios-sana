@@ -1,10 +1,24 @@
+L'objectif de cette manipulation est l'exécution d'un conteneur avec Docker Compose
 
-Exemple 1 : Créez un conteneur en se basant sur la description suivante : :
+-   Tout d'abord, créez un répertoire pour notre fichier YAML:
 
-	•	Image : nodejscn/node
-	•	Port à publier :
-		o	Sur le host : 8080
-		o	Dans le conteneur : 80
-	•	Nom du conteneur : testAppNode
-	
-> `docker run --name serveurCI-CD --publish 8080:8080 --publish 50000:50000 jenkins:2.60.3`{{execute}}
+-   Créez maintenant le fichier YAML docker-compose.yml 
+
+-   Mettez le contenu suivant dans le fichier:
+
+```docker-compose.yml
+my-test:
+  image: hello-world
+```{{copy}}
+
+-   Exécutez la commande suivante pour créer le conteneur:
+
+`docker-compose up`{{execute}}
+
+-   Afficher votre groupe de conteneurs pour le projet hello-world
+
+`docker-compose ps`{{execute}}
+
+-   Arrêter tous les conteneurs du projet hello-world
+
+`docker-compose stop`{{execute}}

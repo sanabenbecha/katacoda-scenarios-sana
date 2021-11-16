@@ -1,1 +1,1 @@
-Gestion du réseau et persistance des données dans les conteneurs
+L'objectif de ces manipulations est l'exécution d'un conteneur avec Docker Compose

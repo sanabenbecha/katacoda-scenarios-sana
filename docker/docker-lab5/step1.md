@@ -1,4 +1,4 @@
-L'objectif de cette manipulation est l'exécution d'un conteneur avec Docker Compose
+Exemple 1 : Projet Hello world
 
 -   Tout d'abord, créez un répertoire pour notre fichier YAML:
 
