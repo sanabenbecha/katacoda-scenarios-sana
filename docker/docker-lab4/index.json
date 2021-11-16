@@ -8,6 +8,7 @@
       {
         "title": "Mappage des ports",
         "text": "step1.md",
+        "verify": "step1-verify.sh",
         "answer": "step1-answer.md"
       },
       {
@@ -23,8 +24,7 @@
     }
   },
   "files": [
-    "Dockerfile",
-    "Dockerfile-v1"
+    "Dockerfile"
   ],
   "environment": {
     "uilayout": "editor-terminal"
