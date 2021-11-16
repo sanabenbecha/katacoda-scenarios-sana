@@ -19,7 +19,7 @@
         "description": "Se familiariser avec la gestion des réseaux et de la persistance des données dans les conteneurs"
       },
       {
-        "course_id": "docker-lab4",
+        "course_id": "docker-lab5",
         "title": "Orchestration d'application avec docker-compose",
         "description": "Se familiariser avec Orchestration des applications sue un daemon docker avec docker-compose"
       }
