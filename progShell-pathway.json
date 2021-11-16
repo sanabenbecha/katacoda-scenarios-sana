@@ -4,11 +4,34 @@
     "icon": "assets/Moby-logo.png",
     "courses": [
       {
-        "course_id": "docker-lab2",
-        "title": "Manipulation des conteneurs avec la CLI",
+        "course_id": "ProgShell1",
+        "title": "Mécanismes essentiels du shell",
+        "description": "Se familiariser avec la ligne de commande docker"
+      },
+      {
+        "course_id": "ProgShell2",
+        "title": "Les bases de la programmation shell",
+        "description": "Se familiariser avec la ligne de commande docker"
+      },
+      {
+        "course_id": "ProgShell3",
+        "title": "Aspects avancés de la programmation shell",
+        "description": "Se familiariser avec la ligne de commande docker"
+      },
+      {
+        "course_id": "ProgShell4",
+        "title": "Expressions Régulières",
+        "description": "Se familiariser avec la ligne de commande docker"
+      },
+      {
+        "course_id": "ProgShell5",
+        "title": "La commande sed",
+        "description": "Se familiariser avec la ligne de commande docker"
+      },
+      {
+        "course_id": "ProgShell6",
+        "title": "La commande awk",
         "description": "Se familiariser avec la ligne de commande docker"
       }
-
     ]
-	
   }
