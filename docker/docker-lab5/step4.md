@@ -14,6 +14,7 @@ services:
            - "5000:5000"
   redis:
            image: "redis:alpine"
+
 ```{{copy}
 
 -   Ce fichier Compose définit deux services: web et redis.

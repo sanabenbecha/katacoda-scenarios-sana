@@ -17,6 +17,7 @@ services:
       FLASK_ENV: development
   redis:
     image: "redis:alpine"
+
 ```{{copy}
 
 
