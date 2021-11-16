@@ -6,7 +6,6 @@ Créez un fichier appelé docker-compose.yml dans le répertoire de votre projet
 
 
 ```docker-compose.yml
-
 version: "3.9"
 services:
   web:
