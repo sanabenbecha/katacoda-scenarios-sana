@@ -3,9 +3,10 @@ Exemple 2 : Une application Web Python simple exécutée sur Docker Compose (2/5
 Étape 2: Créez un Dockerfile 
 
 Dans cette étape, vous écrivez un Dockerfile qui crée une image Docker. L'image contient toutes les dépendances requises par l'application Python, y compris Python lui-même.
+
 Dans le répertoire de votre projet, créez un fichier nommé Dockerfile et collez ce qui suit:
 
-```
+```Dockerfile
 FROM python:3.7-alpine
 WORKDIR /code
 ENV FLASK_APP=app.py
