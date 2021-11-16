@@ -6,28 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Empaquetage de Git avec un Dockerfile",
+        "title": "Mappage des ports",
         "text": "step1.md"
       },
       {
-        "title": "ENTRYPOINT et CMD",
+        "title": "Persistance des données",
         "text": "step2.md"
-      },
-      {
-        "title": "Dockerize un serveur web",
-        "text": "step3.md"
-      },
-      {
-        "title": "Création d’une image à partir d’un container",
-        "text": "step4.md"
-      },
-      {
-        "title": "Dokerfile pour une simple Application Web",
-        "text": "step5.md"
-      },
-      {
-        "title": "Step 6",
-        "text": "step6.md"
       }
     ],
     "intro": {
