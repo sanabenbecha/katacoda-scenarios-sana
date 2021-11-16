@@ -2,7 +2,7 @@ Exemple 2 : Une application Web Python simple exécutée sur Docker Compose (3/5
 
 Étape 3: définir les services dans un fichier de composition 
 
-Créez un fichier appelé docker-compose.yml dans le répertoire de votre projet et collez ce qui suit:
+-   Créez un fichier appelé docker-compose.yml dans le répertoire de votre projet et collez ce qui suit:
 
 
 ```docker-compose.yml
@@ -16,4 +16,4 @@ services:
            image: "redis:alpine"
 ```{{copy}
 
-Ce fichier Compose définit deux services: web et redis.
+-   Ce fichier Compose définit deux services: web et redis.
