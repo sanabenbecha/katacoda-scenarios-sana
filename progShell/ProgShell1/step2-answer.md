@@ -13,20 +13,20 @@ Les commandes dans le shell sont:
                                  Commandes internes
                                  Commandes externes
 								 
-`$ echo -e "Les commandes dans le shell sont : \vCommandes ineternes\n\t\t\t\t   Commandes externes"`{{execute}}
+`echo -e "Les commandes dans le shell sont : \vCommandes ineternes\n\t\t\t\t   Commandes externes"`{{execute}}
 
 13.	Soit la commande who -A, qui génère un message d’erreur :
 
-`$ who -A`{{execute}} 
+`who -A`{{execute}} 
 
 
 -	Relancer cette commande et rediriger les erreurs dans un fichier.
 
-`$ who -A 2> erreurs`{{execute}}
+`who -A 2> erreurs`{{execute}}
 
 -	Relancer cette commande et faire disparaître les erreurs, sans les rediriger dans un fichier.
 
-`$ who -A 2> /dev/null`{{execute}}
+`who -A 2> /dev/null`{{execute}}
 
 14.	Soit les commandes suivantes
 
