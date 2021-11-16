@@ -32,7 +32,7 @@ VOLUME ["/data"]
 
 -   Supprimez le conteneur créé
 
-`docker rm –f c2`{{execute}}
+`docker rm c2`{{execute}}
 
 -   Vérifiez l’existence du fichier hello.txt
 
