@@ -1,5 +1,3 @@
-Commençons par revoir la création d’une image permettant d’empaqueter
-l’utilitaire git dans une image basée sur la dernière version de Ubuntu
 
 1. Exemple 1 : Créez un conteneur en se basant sur la description suivante : :
 
@@ -9,4 +7,4 @@ l’utilitaire git dans une image basée sur la dernière version de Ubuntu
 		o	Dans le conteneur : 80
 	•	Nom du conteneur : testAppNode
 	
-`docker run --name serveurCI-CD --publish 8080:8080 --publish 50000:50000 jenkins:2.60.3`{{execute}}
+> `docker run --name serveurCI-CD --publish 8080:8080 --publish 50000:50000 jenkins:2.60.3`{{execute}}

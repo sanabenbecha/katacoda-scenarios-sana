@@ -1,5 +1,4 @@
-Commençons par revoir la création d’une image permettant d’empaqueter
-l’utilitaire git dans une image basée sur la dernière version de Ubuntu
+
 
 1. Exemple 1 : Créez un conteneur en se basant sur la description suivante : :
 

@@ -8,6 +8,7 @@
       {
         "title": "Mappage des ports",
         "text": "step1.md"
+        "answer": "step1-answer.md"
       },
       {
         "title": "Persistance des données",
@@ -23,11 +24,7 @@
   },
   "files": [
     "Dockerfile",
-    "Dockerfile-v1",
-    "Dockerfile-v2",
-    "Dockerfile-v3",
-    "pong.js",
-    "package.json"
+    "Dockerfile-v1"
   ],
   "environment": {
     "uilayout": "editor-terminal"
