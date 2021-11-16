@@ -19,11 +19,18 @@ CMD ["flask", "run"]
 ```{{copy}} 
 
 Cela indique à Docker de:
-•	Créez une image en commençant par l'image Python 3.7.
-•	Définissez le répertoire de travail sur /code.
-•	Définissez les variables d'environnement utilisées par la flaskcommande.
-•	Installez gcc et d'autres dépendances
-•	Copiez requirements.txtet installez les dépendances Python.
-•	Ajoutez des métadonnées à l'image pour décrire que le conteneur écoute sur le port 5000
-•	Copiez le répertoire actuel .du projet dans le répertoire .de travail de l'image.
-•	Définissez la commande par défaut du conteneur sur flask run.
+-	Créez une image en commençant par l'image Python 3.7.
+
+-	Définissez le répertoire de travail sur /code.
+
+-	Définissez les variables d'environnement utilisées par la flaskcommande.
+
+-	Installez gcc et d'autres dépendances
+
+-	Copiez requirements.txtet installez les dépendances Python.
+
+-	Ajoutez des métadonnées à l'image pour décrire que le conteneur écoute sur le port 5000
+
+-	Copiez le répertoire actuel .du projet dans le répertoire .de travail de l'image.
+
+-	Définissez la commande par défaut du conteneur sur flask run.
