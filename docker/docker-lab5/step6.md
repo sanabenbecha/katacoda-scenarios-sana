@@ -4,7 +4,8 @@ Exemple 2 : Une application Web Python simple exécutée sur Docker Compose (5/5
 
 -   Modifiez docker-compose.yml dans votre répertoire de projet pour ajouter un montage de liaison pour le web service:
 
-```docker-compose.yml
+
+```Dockerfile
 version: "3.9"
 services:
   web:
@@ -17,8 +18,7 @@ services:
       FLASK_ENV: development
   redis:
     image: "redis:alpine"
-
-```{{copy}
+```{{copy}} 
 
 
 -   La nouvelle clé **volumes** monte le répertoire du projet (répertoire courant) sur l'hôte à l’intérieur du /code du conteneur, vous permettant de modifier le code à la volée, sans avoir à reconstruire l'image. 
