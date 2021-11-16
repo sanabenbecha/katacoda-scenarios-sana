@@ -22,6 +22,10 @@ VOLUME ["/data"]
 
 `echo "Ceci un fichier hello" > /data/hello.txt`{{execute}}
 
+-   Quittez le terminal interactif démarré
+
+`exit`{{execute}}
+
 -   inspectez pour récupérer la clé Mounts afin d’avoir le chemin d’accès du volume sur la machine hôte.
 
 `docker inspect c2`{{execute}}
