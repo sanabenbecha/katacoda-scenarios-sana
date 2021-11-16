@@ -1,81 +1,35 @@
-Le but de cet exercice est de vérifier les différences entre ENTRYPOINT
-et CMD.
+Le but de cet Exemple est de définir un volume dans un Dockerfile
 
-1.  Créez un fichier *Dockerfile-v1* contenant les instructions
+1.  Créez un fichier *Dockerfile* contenant les instructions
     suivantes :
 
 ```dockerfile
-FROM alpine
+FROM alpine:3.8
 
-ENTRYPOINT ["ping"]
-```{{copy}}
-
--   Créez ensuite une image, nommée **ping:1.0**, à partir de ce fichier.
-
-`docker build -t ping:1.0 -f Dockerfile-v1 .`{{execute}}
-
--   Lancez maintenant un container basé sur l’image **ping:1.0**
-
-`docker run ping:1.0`{{execute}}
-
--   Observez le résultat
-
--   Lancez un nouveau container en lui donnant l’adresse IP d’un DNS
-    Google (8.8.8.8), en ajoutant également l’option -c 3 pour limiter
-    le nombre de ping envoyés.
-
-`docker run ping:1.0 8.8.8.8 -c3`{{execute}}
-
--   Observez de nouveau le résultat
-
-2.  Créez un fichier *Dockerfile-v2* contenant les instructions suivantes :
-
-```dockerfile
-
-FROM alpine
-
-CMD ["ping"]
-```{{copy}}
-
--   Créez une image, nommée **ping:2.0**, à partir de ce fichier.
-
-`docker build -t ping:2.0 -f Dockerfile-v2 .`{{execute}}
-
--   Lancez maintenant un container basé sur l’image **ping:2.0**
-
-`docker run ping:2.0`{{execute}}
-
--   Observez le résultat
-
--   Lancez un nouveau container en lui donnant l’adresse IP d’un DNS
-    Google (8.8.8.8), en ajoutant également l’option -c 3 pour limiter
-    le nombre de ping envoyés.
-
-`docker run ping:2.0 8.8.8.8 -c3`{{execute}}
-
--   Observez de nouveau le résultat
-
-3.  Créez un fichier *Dockerfile-v3* contenant les instructions
-    suivantes :
-
-```dockerfile
-
-FROM alpine
-
-ENTRYPOINT ["ping"]
-
-CMD ["-c3", "localhost"]
+VOLUME ["/data"]
 
 ```{{copy}}
 
--   Créez une image, nommée **ping:3.0**, à partir de ce fichier.
+-   Créez ensuite une image, nommée **imgvol**, à partir de ce fichier.
 
-`docker build -t ping:3.0 -f Dockerfile-v3 .`{{execute}}
+`docker build -t imgvol .`{{execute}}
 
--   Lancez maintenant un container basé sur l’image **ping:3.0**
+-   Lancez maintenant un shell interactif dans un container, nommé c2, basé sur l’image  **imgvol**
 
-`docker run ping:3.0`{{execute}}
+`docker run -it --name c2 imgvol`{{execute}}
 
-`docker run ping:3.0 8.8.8.8`{{execute}}
+-   créez le fichier /data/hello.txt dans le conteneur
 
--   Observez le résultat
+`echo "Ceci un fichier hello" > /data/hello.txt`{{execute}}
+
+-   inspectez pour récupérer la clé Mounts afin d’avoir le chemin d’accès du volume sur la machine hôte.
+
+`docker inspect c2`{{execute}}
+
+-   Supprimez le conteneur créé
+
+`docker rm –f c2`{{execute}}
+
+-   Vérifiez l’existence du fichier hello.txt
+
+`ls /data/ `{{execute}}
