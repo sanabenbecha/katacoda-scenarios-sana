@@ -6,37 +6,16 @@
   "details": {
     "steps": [
       {
-        "title": "Hello from Alpine",
+        "title": "A.Génération de noms de fichiers à l’aide des jokers",
         "text": "step1.md",
         "verify": "step1-verify.sh",
         "answer": "step1-answer.md"
       },
       {
-        "title": "Manipulation des commandes récurrentes",
+        "title": "B. Gérer une liste des commandes (séparateurs, tubes, redirection, regroupement)",
         "text": "step2.md",
+        "verify": "step1-verify.sh",
         "answer": "step2-answer.md"
-      },
-      {
-        "title": "Shell intéractif",
-        "text": "step3.md",
-        "answer": "step3-answer.md"
-      },
-      {
-        "title": "Foreground / Background",
-        "text": "step4.md",
-        "answer": "step4-answer.md"
-      },
-      {
-        "title": "liste des containers",
-        "text": "step5.md"
-      },
-      {
-        "title": "Inspection d'un container",
-        "text": "step6.md"
-      },
-      {
-        "title": "exec dans un container",
-        "text": "step7.md"
       }
     ],
     "intro": {
