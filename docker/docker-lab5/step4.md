@@ -4,7 +4,9 @@ Exemple 2 : Une application Web Python simple exécutée sur Docker Compose (3/5
 
 Créez un fichier appelé docker-compose.yml dans le répertoire de votre projet et collez ce qui suit:
 
+
 ```docker-compose.yml
+
 version: "3.9"
 services:
   web:
