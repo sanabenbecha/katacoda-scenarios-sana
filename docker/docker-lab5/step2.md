@@ -7,7 +7,7 @@ L'application utilise le framework Flask et gère un compteur d'accès dans Redi
 Définissez les dépendances de l'application.
 
 -	Créez un fichier appelé app.py dans le répertoire de votre projet et collez-le dans:
-```
+```app.py
 import time
 import redis
 from flask import Flask
@@ -36,7 +36,7 @@ Dans cet exemple, redis est le nom d'hôte du conteneur redis sur le réseau de 
 
 -	Créez un autre fichier appelé requirements.txt dans le répertoire de votre projet
 
-```
+```requirements.txt
 Flask
 redis
 ```{{copy}} 
