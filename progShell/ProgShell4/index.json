@@ -10,10 +10,22 @@
         "text": "step1.md"
       },
       {
-        "title": "La commande sed",
+        "title": "La commande grep",
         "text": "step2.md",
         "verify": "step1-verify.sh",
         "answer": "step2-answer.md"
+      },
+      {
+        "title": "La commande expr",
+        "text": "step3.md",
+        "verify": "step1-verify.sh",
+        "answer": "step3-answer.md"
+      },
+      {
+        "title": "Les expressions régulières dans l'éditeur VI",
+        "text": "step4.md",
+        "verify": "step1-verify.sh",
+        "answer": "step4-answer.md"
       }
     ],
     "intro": {
@@ -24,7 +36,7 @@
     }
   },
   "files": [
-    "dates_cours.txt",	
+    "chiffres.txt",	
 	"mails.txt",
 	"expr.txt",
 	"mails.sh "
