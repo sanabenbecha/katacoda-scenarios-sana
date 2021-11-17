@@ -19,9 +19,7 @@
       },
       {
         "title": "C. Caractères de protection",
-        "text": "step3.md",
-        "verify": "step1-verify.sh",
-        "answer": "step3-answer.md"
+        "text": "step3.md"
       },
       {
         "title": "D. Variables, affichages et lectures clavier",
@@ -43,8 +41,11 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "affich.sh"
+  ],
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
