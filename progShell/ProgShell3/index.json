@@ -1,0 +1,52 @@
+{
+  "title": "Docker - Manipulation des conteneurs avec la CLI",
+  "description": "Exercices Docker avec CLI",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "A. Les variables",
+        "text": "step1.md",
+        "verify": "step1-verify.sh",
+        "answer": "step1-answer.md"
+      },
+      {
+        "title": "B. Substitution de commande",
+        "text": "step2.md",
+        "verify": "step1-verify.sh",
+        "answer": "step2-answer.md"
+      },
+      {
+        "title": "C. Caractères de protection",
+        "text": "step3.md",
+        "verify": "step1-verify.sh",
+        "answer": "step3-answer.md"
+      },
+      {
+        "title": "D. Variables, affichages et lectures clavier",
+        "text": "step4.md",
+        "verify": "step1-verify.sh",
+        "answer": "step4-answer.md"
+      },
+      {
+        "title": "E. Test et comparaison",
+        "text": "step5.md",
+        "verify": "step1-verify.sh",
+        "answer": "step5-answer.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
