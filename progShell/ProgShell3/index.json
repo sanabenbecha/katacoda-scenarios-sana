@@ -32,6 +32,7 @@
     }
   },
   "files": [
+    "fichier",	
     "operation.sh",	
 	"audit.sh",
 	"ajoutPersonne.sh"

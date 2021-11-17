@@ -60,4 +60,4 @@ nlignes
 minmax
 ```{{copy}}
 
-`bash operation.sh`{{execute}}
+`bash operation.sh fichier`{{execute}}
