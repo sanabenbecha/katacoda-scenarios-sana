@@ -38,7 +38,8 @@
   "files": [
     "chiffres.txt",	
 	"mails.txt",
-	"expr.txt"
+	"expr.txt",
+	"mails.sh "
 	],
   "environment": {
     "uilayout": "editor-terminal"
