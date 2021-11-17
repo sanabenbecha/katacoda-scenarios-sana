@@ -1,2 +1,4 @@
-En se servant de la commande expr, vérifier si la liste des emails enregistrés dans le fichier mails.txt. est valide ou non 
+1.	Afficher le nom et le tél des clients des lignes 1 et 4
 
+
+2.	Afficher le nom et le tél des clients des lignes comprises entre ligne 1 et ligne 4

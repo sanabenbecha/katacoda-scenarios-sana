@@ -1,17 +1,7 @@
-En se servant de la commande expr, vérifier si la liste des emails enregistrés dans le fichier mails.txt. est valide ou non 
+10.	Afficher le nom et le tél des clients des lignes 1 et 4
 
-```mails.sh
-#!/bin/bash
-while read mail
-do
-        result=$(expr "$mail" : '^[a-zA-Z].*@[a-zA-Z].*\..*$')
+`awk -F'|' 'NR == 1 || NR == 4 {print $1, "-" , $5}' adresse.txt`{{execute}}
 
-        if [[ $result == 0 ]] ; then
-                echo -e "$mail \tn'est un mail pas valide"
-        else
-                echo -e "$mail \tc'est un mail valide"
-        fi
-done < $1
-```{{copy}}
+11.	Afficher le nom et le tél des clients des lignes comprises entre ligne 1 et ligne 4
 
-`bash mails.sh mails.txt`{{execute}}
+`awk -F'|' 'NR == 1 , NR == 4 {print $1, "-" , $5}' adresse.txt`{{execute}}

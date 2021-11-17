@@ -10,22 +10,16 @@
         "text": "step1.md"
       },
       {
-        "title": "La commande grep",
+        "title": "Manipulation de la commande AWK",
         "text": "step2.md",
         "verify": "step1-verify.sh",
         "answer": "step2-answer.md"
       },
       {
-        "title": "La commande expr",
+        "title": "Les Tests",
         "text": "step3.md",
         "verify": "step1-verify.sh",
         "answer": "step3-answer.md"
-      },
-      {
-        "title": "Les expressions régulières dans l'éditeur VI",
-        "text": "step4.md",
-        "verify": "step1-verify.sh",
-        "answer": "step4-answer.md"
       }
     ],
     "intro": {
@@ -36,10 +30,7 @@
     }
   },
   "files": [
-    "chiffres.txt",	
-	"mails.txt",
-	"expr.txt",
-	"mails.sh "
+    "adresse.txt"
 	],
   "environment": {
     "uilayout": "editor-terminal"
