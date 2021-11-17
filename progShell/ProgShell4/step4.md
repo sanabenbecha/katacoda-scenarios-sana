@@ -1,5 +1,7 @@
 Effectuer les opérations suivantes avec l'éditeur vi (mode ex) sur le fichier expr.txt :
 
+`vi expr.txt`{{execute}}
+
 - Les numéros de téléphone qui se terminent par 48 doivent désormais se terminer par 50
 
 
