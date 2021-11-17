@@ -81,4 +81,4 @@ done
 sort +1 -2 -t ";" Personnes > /tmp/Personnes
 ```{{copy}}
 
-`bash audit.sh`{{execute}}
+`bash ajoutPersonne.sh`{{execute}}
