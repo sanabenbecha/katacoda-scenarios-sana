@@ -1,21 +1,21 @@
 Créez un script ajoutPersonne.sh qui permet la saisie du formulaire suivant :
 
 
->	Civilité d’une personne (M., Mme, Mlle)
+		-	Civilité d’une personne (M., Mme, Mlle)
 
->	Son nom
+		-	Son nom
 
->	Son prénom
+		-	Son prénom
 
->	Sa date de naissance sous forme de jj/mm/aaaa
+		-	Sa date de naissance sous forme de jj/mm/aaaa
 
->	Sa situation familiale (Célibataire, Divorcé(e), Marié(e))
+		-	Sa situation familiale (Célibataire, Divorcé(e), Marié(e))
 
->	Nombre d’enfants à charge 
+		-	Nombre d’enfants à charge 
 
->	Sa nationalité
+		-	Sa nationalité
 
->	Sa profession
+		-	Sa profession
 
 
 Ces informations sont ajoutées dans un fichier nommé Personnes. Elles sont séparées par des points-virgules. Chaque ligne contient les données d’une personne. La structure d’une ligne du fichier est la suivante :
