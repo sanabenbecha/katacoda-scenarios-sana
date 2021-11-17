@@ -17,3 +17,5 @@ prenom=$1
 maDate=`date`
 echo "$prenom nous somme le $maDate"
 ```{{copy}}
+
+`bash affich.sh`{{execute}}

@@ -6,32 +6,22 @@
   "details": {
     "steps": [
       {
-        "title": "A. Les variables",
+        "title": "Exercice 1 : Les fonctions",
         "text": "step1.md",
         "verify": "step1-verify.sh",
         "answer": "step1-answer.md"
       },
       {
-        "title": "B. Substitution de commande",
+        "title": "Exercice 2 : Le menus",
         "text": "step2.md",
         "verify": "step1-verify.sh",
         "answer": "step2-answer.md"
       },
       {
-        "title": "C. Caractères de protection",
-        "text": "step3.md"
-      },
-      {
-        "title": "D. Variables, affichages et lectures clavier",
-        "text": "step4.md",
+        "title": "Exercice 3 : Programmes interactif",
+        "text": "step3.md",
         "verify": "step1-verify.sh",
-        "answer": "step4-answer.md"
-      },
-      {
-        "title": "E. Test et comparaison",
-        "text": "step5.md",
-        "verify": "step1-verify.sh",
-        "answer": "step5-answer.md"
+        "answer": "step3-answer.md"
       }
     ],
     "intro": {
@@ -42,10 +32,10 @@
     }
   },
   "files": [
-    "affich.sh",	
-	"exist.sh",
-	"verifUser.sh"
-  ],
+    "operation.sh",	
+	"audit.sh",
+	"ajoutPersonne.sh"
+	],
   "environment": {
     "uilayout": "editor-terminal"
   },

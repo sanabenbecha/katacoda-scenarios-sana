@@ -1,6 +1,6 @@
 E.	Test et comparaison
 
-10.	Écrire un script exist.sh qui affiche “fichier présent” si l’argument de la commande correspond à un fichier qui existe.
+1.	Écrire un script exist.sh qui affiche “fichier présent” si l’argument de la commande correspond à un fichier qui existe.
 
 ```
 #!/bin/bash
@@ -10,7 +10,9 @@ echo fichier existe
 fi
 ```{{copy}}
 
-12.	Écrire un script verifUser.sh qui permet de vérifier si un utilisateur (passé en paramètre) existe.
+`bash exist.sh`{{execute}}
+
+2.	Écrire un script verifUser.sh qui permet de vérifier si un utilisateur (passé en paramètre) existe.
 
 ```
 #!/bin/bash
@@ -24,3 +26,5 @@ else
         echo "l'utilisateur $1 n'existe pas"
 fi
 ```{{copy}}
+
+`bash verifUser.sh`{{execute}}
