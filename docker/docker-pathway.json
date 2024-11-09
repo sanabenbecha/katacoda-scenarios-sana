@@ -5,7 +5,7 @@
     "courses": [
       {
         "course_id": "docker-lab2",
-        "title": "Manipulation des conteneurs avec la CLI",
+        "title": "Manipulation des conteneurs",
         "description": ""
       },
     ]
